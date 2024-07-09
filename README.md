@@ -36,7 +36,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
     bash
    git clone https://github.com/JuanEJR/GameRock.git
        
-2. Abre el archivo inde.html en tu navegador preferido.
+2. Abre el archivo index.html en tu navegador preferido.
 
 ## Uso
 

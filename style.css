@@ -1,0 +1,16 @@
+body {
+    background-color: #aae5a4;
+    color: white;
+}
+
+.destaquePiedra {
+   color: #758694; 
+}
+
+.destaquePapel {
+    color: white;
+}
+
+.destaqueTijera {
+    color: black;
+}
