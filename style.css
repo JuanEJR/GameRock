@@ -1,16 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #aae5a4;
     color: white;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 .destaquePiedra {
    color: #758694; 
+   font-size: 36px;
+   font-family: "Anton SC", sans-serif;
 }
 
 .destaquePapel {
     color: white;
+    font-size: 36px;
+    font-family: "Anton SC", sans-serif;
 }
 
 .destaqueTijera {
     color: black;
+    font-size: 36px;
+    font-family: "Anton SC", sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    flex-direction: column;
+}
+
+.menu_titulo {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+}
+
+.menu_texto {
+    color: black;
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    gap: 50px;
+}
+
+.opciones_interaccion {
+    width: 230px;
+    height: 70px;
+    background-color: lightblue;
+    font-family: "Anton SC", sans-serif;
+    border-radius: 16px;
 }
