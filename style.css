@@ -1,66 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
+:root {
+    --color-secundario: #add8e6; 
+    --color-terciario: #000000;
+    
+    --fuente-anton: "Anton SC", sans-serif;
+    --fuente-exo: "Exo 2", sans-serif;
 }
 
 body {
     background-color: #aae5a4;
     color: white;
-    height: 100vh;
     box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
 }
+
 
 .destaquePiedra {
    color: #758694; 
    font-size: 36px;
-   font-family: "Anton SC", sans-serif;
+   font-family: var(--fuente-anton);
 }
 
 .destaquePapel {
     color: white;
     font-size: 36px;
-    font-family: "Anton SC", sans-serif;
+    font-family: var(--fuente-anton);
 }
 
 .destaqueTijera {
-    color: black;
+    color: var(--color-terciario);
     font-size: 36px;
-    font-family: "Anton SC", sans-serif;
+    font-family: var(--fuente-anton);
 }
 
 .menu{
     display: flex;
-    align-items: center;
     margin: 5%;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .menu_titulo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 10px;
 }
 
 .menu_texto {
-    color: black;
-    font-family: "Exo 2", sans-serif;
+    color: var(--color-terciario);
+    font-family: var(--fuente-exo);
     text-align: center;
 }
 
 .opciones {
     display: flex;
-    justify-content: center;
-    margin: 3%;
-    gap: 50px;
+    margin: 5%;
+    gap: 10px;
+    text-align: center;
 }
 
 .opciones_interaccion {
     width: 230px;
-    height: 70px;
-    background-color: lightblue;
+    background-color: var(--color-secundario);
     font-family: "Anton SC", sans-serif;
     border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+}
+
+.opciones_interaccion:hover {
+    background-color: blue;
+    color: azure;
+}
+
+.footer {
+    background-color: var(--color-secundario);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--fuente-exo);
+    border: 3px solid var(--color-terciario);
+    color: var(--color-terciario);
 }
